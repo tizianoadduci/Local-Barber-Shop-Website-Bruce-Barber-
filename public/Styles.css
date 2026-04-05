@@ -172,14 +172,14 @@ a {
     position: relative;
     z-index: 3;
     text-transform: uppercase;
-    transform: translateY(-150px);
+    transform: translateY(-200px);
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
 
 .hero-main-title {
     color: white;
-    transform: translateY(-150px);
+    transform: translateY(-250px);
     font-size: 1.8rem;
     line-height: 1.2;
     letter-spacing: 1px;
@@ -193,7 +193,7 @@ a {
 
 .hero-subtitle {
     color: var(--bruce-yellow);
-    transform: translateY(-150px);
+    transform: translateY(-250px);
     font-size: 1.6rem;
     line-height: 1.2;
     letter-spacing: 1px;
