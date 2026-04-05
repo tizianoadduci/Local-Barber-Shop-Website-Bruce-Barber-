@@ -1,0 +1,15 @@
+# Archivo robots.txt para Bruce Barbería Mar del Plata
+
+# Indica a todos los rastreadores web (como Googlebot, Bingbot, etc.)
+User-agent: *
+
+# Permitir el rastreo de todo el sitio web. 
+# Esto asegura que Google pueda leer todas las secciones.
+Allow: /
+
+# Bloquear cualquier directorio que no necesites indexar (si los tuvieras)
+# Disallow: /admin/
+# Disallow: /includes/
+
+# Enlazalo a tu Sitemap XML (Asegura una indexación rápida y completa)
+Sitemap: https://www.tudominio.com/sitemap.xml

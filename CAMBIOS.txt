@@ -1,0 +1,47 @@
+Para editar mejor la altura de cada foto, en el CSS en esta parte, mientras mas bajo el porcentaje a la derecha de cada "center", mas arriba las imagenes.
+
+.carousel-background .carousel-slide:nth-child(4) {
+        background-position: center 45%;
+    }
+    .carousel-background .carousel-slide:nth-child(5) {
+        background-position: center 40%;
+    }
+
+✅ Opción 1 (la mejor): link directo a dejar reseña
+
+Este es el más usado en webs y QR.
+
+Buscá tu negocio en Google
+
+Abrí tu ficha
+
+En “Pedir reseñas” o “Obtener más reseñas” Google te da un link
+
+Tiene este formato:
+
+https://g.page/r/TU_ID/review
+
+
+📌 Al hacer click:
+
+Abre Google Maps
+
+Lleva directo a poner estrellas y escribir reseña
+
+✅ Opción 2: link a ver todas las reseñas
+
+Si querés que vea primero las opiniones:
+
+https://www.google.com/maps/place/?q=place_id:TU_PLACE_ID
+
+
+O simplemente:
+
+Abrís Google Maps
+
+Compartir → copiar enlace
+
+✅ Cómo usarlo en tu web (ejemplo HTML)
+<a href="https://g.page/r/TU_ID/review" target="_blank">
+  Dejanos tu reseña ⭐⭐⭐⭐⭐
+</a>

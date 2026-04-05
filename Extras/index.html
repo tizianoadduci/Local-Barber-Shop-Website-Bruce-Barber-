@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruce Barbería</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#servicios" class="nav-item">Servicios</a>
+            <a href="#nosotros" class="nav-item">Nosotros</a>
+            <a href="https://wa.me/xxxxxxxxxx?text=Hola,%20me%20gustaría%20pedirles%20un%20turno%20para%20lavado%20y%20corte." target="_blank" class="nav-item btn-turnos">Turnos</a>
+        </nav>
+        <div class="logo-background">BRUCE</div>
+    </header>
+
+    <main>
+        <section id="home" class="section hero-section">
+            <h1 class="fade-in">BRUCE</h1>
+            <p class="fade-in">Estilo y Calidad al Mejor Precio.</p>
+        </section>
+
+        <section class="section carousel-section">
+            <div class="carousel-container">
+                <img src="img/barberia-1.jpg" alt="Barbero trabajando" class="carousel-img active">
+                <img src="img/barberia-2.jpg" alt="Interior de la barbería" class="carousel-img">
+                <img src="img/barberia-3.jpg" alt="Herramientas de corte" class="carousel-img">
+                <button class="carousel-btn prev" aria-label="Anterior">&#10094;</button>
+                <button class="carousel-btn next" aria-label="Siguiente">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="servicios" class="section services-section">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-container">
+                <div class="service-card slide-in-left">
+                    <i class="fas fa-bath"></i>
+                    <h3>1. Lavado Rápido Previo</h3>
+                    <p>Un lavado express esencial para preparar tu cabello antes del corte.</p>
+                </div>
+                <div class="service-card slide-in-bottom">
+                    <i class="fas fa-cut"></i>
+                    <h3>2. El Corte</h3>
+                    <p>Expertos en estilos clásicos y modernos, garantizando un acabado impecable.</p>
+                </div>
+                <div class="service-card slide-in-right">
+                    <i class="fas fa-pump-soap"></i>
+                    <h3>3. Lavado Final (Opcional)</h3>
+                    <p>Elimina restos de cabello y te deja listo para salir con el mejor look.</p>
+                </div>
+            </div>
+            <p class="promos-note">**Consultar por promociones existentes.**</p>
+        </section>
+
+        <section id="nosotros" class="section about-section">
+            <h2>Quiénes Somos</h2>
+            <p class="slide-in-bottom">
+                Somos la barbería **más económica y altamente profesional** de la zona. 
+                Nuestro sistema se basa en la **alta demanda y fidelidad de clientes** para poder mantener los precios bajos sin sacrificar la calidad. 
+                En Bruce, obtienes el mejor corte al mejor valor.
+            </p>
+            <a href="https://maps.app.goo.gl/1W5H5ckhZvisQC72z" target="_blank" class="map-link">
+                <i class="fas fa-map-marker-alt"></i> ¡Visítanos! (Ver en Google Maps)
+            </a>
+        </section>
+
+    </main>
+
+    <a href="https://wa.me/xxxxxxxxxx?text=Hola,%20me%20gustaría%20pedirles%20un%20turno%20para%20lavado%20y%20corte." target="_blank" class="whatsapp-popup animate-popup" aria-label="Contactar por WhatsApp para Turnos">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer class="footer">
+        <p>&copy; 2025 Bruce Barbería. Estilo y Calidad.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
