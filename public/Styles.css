@@ -179,7 +179,7 @@ a {
 
 .hero-main-title {
     color: white;
-    transform: translateY(-220px);
+    transform: translateY(-150px);
     font-size: 1.8rem;
     line-height: 1.2;
     letter-spacing: 1px;
@@ -193,7 +193,7 @@ a {
 
 .hero-subtitle {
     color: var(--bruce-yellow);
-    transform: translateY(-220px);
+    transform: translateY(-150px);
     font-size: 1.6rem;
     line-height: 1.2;
     letter-spacing: 1px;
@@ -583,7 +583,7 @@ a {
    }
 
     .hero-content {
-        transform: translateY(-70px);
+        transform: translateY(0px);
     }
 
     .hero-main-title {
