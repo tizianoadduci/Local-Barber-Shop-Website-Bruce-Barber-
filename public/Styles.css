@@ -11,6 +11,7 @@ html,body {
     --text-color: #ffffff;
     --accent-gray: #1a1a1a;
     --highlight: #cccccc;
+    --bruce-yellow: #FFD700;
 }
 
 * {
@@ -172,22 +173,30 @@ a {
     z-index: 3;
     text-transform: uppercase;
     transform: translateY(-150px);
-    font-size: 0.8rem; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
-.hero-content p{
+.hero-main-title {
+    color: white;
     transform: translateY(-220px);
-    font-size: 1rem;
+    font-size: 2rem;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
-.hero-content h2 {
+.hero-subtitle {
+    color: var(--bruce-yellow);
     transform: translateY(-220px);
-    font-size: 1rem;
-    letter-spacing: 3px;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
 /* ----- Nuestros Servicios ----- */
@@ -354,7 +363,7 @@ a {
 }
 
 .btn-social {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -366,13 +375,15 @@ a {
     font-weight: bold;
     position: relative;
     min-width: 300px;
+    height: 46px;
+    line-height: 1;
+    font-size: 0.9rem;
 }
 
 .btn-instagram {
     color: white;
     border: 1px solid white;
     background: transparent;
-    overflow: hidden;
 }
 
 .btn-instagram::before {
@@ -385,6 +396,7 @@ a {
     background-color: white;
     transform: translateX(-50%);
     transition: width 0.4s ease;
+    pointer-events: none;
 }
 
 .btn-instagram:hover {
@@ -408,6 +420,18 @@ a {
 .btn-map:hover {
     background: white;
     color: black;
+}
+
+/* Alineación dentro de social-buttons */
+.social-buttons .btn-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 30px;
+    margin-top: 0;
+    height: 46px;
+    line-height: 1;
+    font-size: 0.9rem;
 }
 
 /* --- MAPA --- */
@@ -553,15 +577,20 @@ a {
    }
 
     .hero-content {
-    transform: translateY(-70px);
-    font-size: 1.5rem; 
+        transform: translateY(-70px);
     }
 
-    .hero-content h2 {
-    font-size: 3rem;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    .hero-main-title {
+        font-size: 4.5rem;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+        text-shadow: 3px 3px 12px rgba(0,0,0,0.95);
+    }
+
+    .hero-subtitle {
+        font-size: 3.5rem;
+        letter-spacing: 3px;
+        text-shadow: 3px 3px 12px rgba(0,0,0,0.95);
     }
 
     
@@ -599,11 +628,13 @@ a {
     .social-buttons {
         flex-direction: row;
         gap: 20px;
+        align-items: center;
     }
 
     .btn-social {
         padding: 12px 35px;
         min-width: auto;
         width: auto;
+        height: auto;
     }
 }
