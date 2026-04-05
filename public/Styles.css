@@ -180,23 +180,29 @@ a {
 .hero-main-title {
     color: white;
     transform: translateY(-220px);
-    font-size: 2rem;
-    letter-spacing: 2px;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
-    margin-bottom: 15px;
+    margin: 0 0 12px 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
+    padding: 0 20px;
+    max-width: 90vw;
 }
 
 .hero-subtitle {
     color: var(--bruce-yellow);
     transform: translateY(-220px);
-    font-size: 1.8rem;
-    letter-spacing: 2px;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
+    padding: 0 20px;
+    max-width: 90vw;
 }
 
 /* ----- Nuestros Servicios ----- */
@@ -581,16 +587,20 @@ a {
     }
 
     .hero-main-title {
-        font-size: 4.5rem;
-        letter-spacing: 3px;
-        margin-bottom: 20px;
+        font-size: 3.2rem;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
         text-shadow: 3px 3px 12px rgba(0,0,0,0.95);
+        padding: 0;
+        max-width: none;
     }
 
     .hero-subtitle {
-        font-size: 3.5rem;
-        letter-spacing: 3px;
+        font-size: 2.8rem;
+        letter-spacing: 2px;
         text-shadow: 3px 3px 12px rgba(0,0,0,0.95);
+        padding: 0;
+        max-width: none;
     }
 
     
